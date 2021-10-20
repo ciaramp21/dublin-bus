@@ -1,0 +1,11 @@
+<!-- base.html -->
+{% extends "base.html" %} {% block content %}
+<div>
+  {% for i in price%}
+  {% if forloop.first %}
+  <p>{{ price }} </p>
+  {% endif %}
+  {% endfor %}
+
+</div>
+{% endblock content %}

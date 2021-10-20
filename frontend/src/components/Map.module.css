@@ -1,0 +1,178 @@
+.mapContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.homeContainer {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.paper {
+    width: 100%;
+    height: 400px;
+}
+
+.homePaper {
+    width: 100%;
+    height: 400px;
+}
+.resultsPaper {
+    width: 100%;
+    height: 400px;
+}
+.profileContainer {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.profilePaper {
+    width: 100%;
+    height: 90vh;
+}
+.settingsContainer {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.settingsPaper {
+    width: 100%;
+    height: 400px;
+}
+
+.menuButton {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 200;
+}
+.drawer {
+    width: 200px;
+}
+.datePicker {
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+.favouriteSubmitButton {
+    margin-top: 10px;
+    width: 50%;
+}
+
+.stepTitlePaper {
+    padding: 1px;
+}
+.stepPaper {
+    padding: 1px;
+    margin-bottom: 5px;
+}
+.directionsText {
+    color: white;
+}
+.walkingDirectionsText {
+    color: white;
+}
+.directionsPaperContainer {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+
+/* Directions tab - extends to full height */
+/* .MuiBox-root {
+    height: 400px;
+} */
+
+.datePickerContainer {
+    /* align-items: center; */
+    padding: 2px 4px;
+    /* height: 10px; */
+}
+.dateAndButtonContainer {
+    /* width: 80%;
+    margin-left: 10%; */
+    /* margin-bottom: 20px; */
+}
+.routeDropdownContainer {
+    padding: 8px;
+}
+.resultsBackButton {
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.walkOrBusBackButton {
+    /* top: 50%; */
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.stepsContainer {
+    /* overflow: auto; */
+    position: relative;
+  }
+.stepsFade {
+    /* border-radius: 5px; */
+    content:'';
+    z-index: 200;
+    top: 40px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(251, 251, 251, 1) 0%, rgba(251, 251, 251, 0) 100%);
+    position: relative;
+}
+
+.editDeleteIcons {
+    top: 25%;
+}
+
+@media (min-width: 768px) {
+    .homeContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        /* margin-bottom: 10px; */
+    }
+    .homePaper {
+         /* margin-bottom: 10px; */
+    }
+    .profileContainer {
+       margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+    .profilePaper {
+        margin-bottom: 10px;
+    }
+    .settingsContainer {
+       margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+    .settingsPaper {
+        margin-bottom: 10px;
+    }
+    .submitButton {
+        width: 200px !important;
+        margin-bottom: 10px;
+    }
+    .directionsPaperContainer {
+        width: 70%;
+        margin-left: 15%;       
+    }
+}
